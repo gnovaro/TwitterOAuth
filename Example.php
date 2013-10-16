@@ -43,8 +43,9 @@ $params = array(
  */
 $response = $tw->get('statuses/user_timeline', $params);
 
+echo "<pre>";
 var_dump($response);
-
+echo "</pre>";
 
 /**
  * Creates a new list for the authenticated user
