@@ -61,4 +61,6 @@ $params = array(
  */
 $response = $tw->post('lists/create', $params);
 
+echo "<pre>";
 var_dump($response);
+echo "</pre>";
